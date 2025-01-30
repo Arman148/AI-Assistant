@@ -1,0 +1,25 @@
+/* Chat container */
+.chat-container {
+    position: relative;
+    height: 800px;
+    width: 700px;
+  }
+  
+  /* User message */
+  .message-user {
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 80%;
+    align-self: flex-end;
+  }
+  
+  /* Assistant message */
+  .message-assistant {
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 80%;
+    align-self: flex-start;
+  }
+  
